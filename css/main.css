@@ -1,0 +1,25 @@
+.menu {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 10vh;
+  width: 100%;
+  background-image: linear-gradient(-45deg, #278EDA, #4B66DE, #114194);
+  z-index: 1;
+  text-align: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #C4DFF3;
+  font-size: 3rem;
+  line-height: 10vh;
+  margin: 0 20px;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.menu a:hover {
+  color: #339EED;
+  border-bottom: 2px solid white;
+}
