@@ -185,4 +185,38 @@ html {
   height: 100vh;
   background-color: darkkhaki;
 }
+
+hr {
+  width: 40%;
+  margin: 10px auto 20px;
+}
+
+.my-faq {
+  width: 100%;
+}
+
+.row {
+  margin: auto;
+  width: 50%;
+}
+
+.main-section {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.faq-btn {
+  color: orange;
+  font-size: 2rem;
+  padding: 10px 0;
+}
+
+.faq-btn:hover {
+  color: #9d9d9d;
+}
+
+footer {
+  height: 25vh;
+  background-color: dimgray;
+}
 /*# sourceMappingURL=main.css.map */
