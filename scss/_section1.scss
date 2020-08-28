@@ -1,4 +1,34 @@
 .section1{
+    position: relative;
     height: 100vh;
-    background-color: darkkhaki;
+    background-color: white;
+    .inst{
+        h2{
+            font-size: 6rem;
+            position: relative;
+            font-weight: bold;
+            width: 100%;
+            text-align: center;
+            padding-top: 5%;
+            z-index: 1;
+        }
+
+        img{
+            width: 50%;
+            position: absolute;
+            top: 20%;
+            right: 5%;
+            background: transparent;
+        }
+        p{
+            display: inline-block;
+            position: absolute;
+            font-size: 3rem;
+            width: 35%;
+            top: 42%;
+            left: 5%;
+        }
+
+    
+    }
 }
