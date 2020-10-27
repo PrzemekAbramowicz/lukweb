@@ -1,0 +1,139 @@
+.logo_partners {
+    min-width: 360px;
+    height: 120vh;
+    margin-top: 30vh;
+
+    .partners {
+        position: relative;
+        display: block;
+        height: 100%;
+        background-image: url(/img/logo_bgc.jpg);
+        background-size: cover;
+        display: flex;
+        flex-basis: 100%;
+
+
+        h2 {
+            font-size: 5rem;
+            letter-spacing: 5px;
+            position: absolute;
+            width: 100%;
+            top: 7%;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            padding: 10px 0;
+            background-color: rgba($color: #0388b1, $alpha: 0.7);
+        }
+
+        &__panel {
+            margin-top: 10%;
+            max-height: 80%;
+            display: flex;
+            flex-basis: 100%;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: flex-end;
+            align-content: center;
+            overflow: hidden;
+
+            @media (max-width: 479px) {
+                margin-top: 40%;
+            }
+
+            .logo1,
+            .logo2,
+            .logo3,
+            .logo4,
+            .logo5,
+            .logo6,
+            .logo7 {
+                // width: 300px;
+                // height: 100px;
+                // margin: 30px;
+                // margin-bottom: 7vh;
+                // display: flex;
+                // flex-basis: 25%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                cursor: pointer;
+                transition: .5s;
+                position: relative;
+                overflow: hidden;
+                height: 15%;
+                flex-basis: calc(40% - 20px);
+                margin: 25px 20px;
+
+                @media (max-width: 479px) {
+                    flex-basis: 80%;
+                    margin: 0;
+                }
+
+                &:hover {
+                    scale: 1.2;
+                }
+
+                img {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    // min-height: 50%;
+                    // min-width: 50%;
+                    max-width: 80%;
+
+                    // max-height: 30%;
+                    @media (max-width: 479px) {
+                        max-width: 50%;
+                        max-height: 100%;
+                    }
+                }
+            }
+
+            // .logo1 {
+            //     background-image: url(/logo/trinasolar.jpg);
+            //     background-size: cover;
+            // }
+
+            // .logo2 {
+            //     background-image: url(/logo/fronius.png);
+            // }
+
+            // .logo3 {
+            //     background-image: url(/logo/jasolar.png);
+            // }
+
+            // .logo4 {
+            //     background-image: url(/logo/longisolar.png);
+            //     background-size: auto;
+            // }
+
+            // .logo5 {
+            //     background-image: url(/logo/sofarsolar.jpg);
+            // }
+
+            // .logo6 {
+            //     background-image: url(/logo/solaredge.png);
+            // }
+
+            // .logo7 {
+            //     background-image: url(/logo/sunlinkpv.jpg);
+            //     background-size: cover;
+            // }
+        }
+    }
+}
+
+// @keyframes move {
+//     0% {
+//         transform: translateX(-10vw)
+//     }
+
+//     50% {
+//         transform: translateX(0);
+//     }
+
+//     100% {
+//         transform: translateX(10vw);
+//     }
+// }

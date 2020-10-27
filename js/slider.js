@@ -3,9 +3,9 @@ const h1 = document.querySelector('.description h1')
 const h2 = document.querySelector('.description h2')
 
 let activeElement = 0
-const time = 9000
+const time = 10000
 
-const colorImages = ['img/en1.jpg', 'img/en2.jpg', 'img/en3.jpg']
+const colorImages = ['img/4.jpg', 'img/2.jpg', 'img/3.jpg']
 // const names = ['Jakiś nagłówek 1', 'Jakiś nagłówek 2', 'Jakiś nagłówek 3']
 // const professions = ['Jakiś opis 1 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, aliquid. ', 'Jakiś opis 2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, aliquid.', 'Jakiś opis 3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, aliquid.']
 

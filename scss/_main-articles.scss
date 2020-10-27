@@ -1,0 +1,40 @@
+.main-articles {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    background-color: white;
+
+
+    &__intro {
+        flex-basis: 100%;
+        padding: 25px 0;
+        // background-color: rgba(0, 0, 0, 0.2);
+        margin: 60px 0 30px;
+        text-align: center;
+        font-size: 4.4rem;
+        letter-spacing: 2px;
+    }
+
+    .article {
+        display: flex;
+        flex-basis: 100%;
+        padding: 30px 50px;
+        flex-direction: row-reverse;
+
+
+
+        &__image {
+            display: block;
+            width: 45%;
+        }
+
+        &__introduction {
+            padding: 100px 100px;
+            text-align: justify;
+            font-size: 1.7rem;
+            letter-spacing: 1.5px;
+            line-height: 3rem;
+
+        }
+    }
+}
